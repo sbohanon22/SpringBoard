@@ -29,7 +29,7 @@ def type_sorting(pokedex_number_start, ID):
         pokedex_number_start += 1
 
 
-# In[4]:
+# In[5]:
 
 
 def type_sorting2(pokedex_number_start, index):
@@ -74,7 +74,7 @@ def type_sorting2(pokedex_number_start, index):
             pokedex_number_start += 1
 
 
-# In[5]:
+# In[6]:
 
 
 pokemon_data['Type2'] = pokemon_data['Type2'].apply(lambda x: 2*[x] if (x != 'Nan') else x)
